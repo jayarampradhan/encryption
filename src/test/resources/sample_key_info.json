@@ -1,0 +1,103 @@
+{
+  "keys": [
+    {
+      "key_alias": "common.key_family_1.shard1",
+      "fixed_salt": "1gru7ulzhqfct3ua",
+      "current_version": "001",
+      "keys": [
+        {
+          "key": "Ty66chaeN1BVwSnvGzb6lg==",
+          "cipher_name": "AES/CBC/PKCS5Padding",
+          "version": "001",
+          "fixed_salt": "1gru7ulzhqfct3ua"
+        },
+        {
+          "key": "Ty66chaeN1BVwSnvGzb6lg==",
+          "cipher_name": "AES",
+          "version": "002",
+          "fixed_salt": "1gru7ulzhqfct3ua"
+        }
+      ]
+    },
+    {
+      "key_alias": "common.key_family_2.shard1",
+      "fixed_salt": "1gru7ulzhqfct3ua",
+      "initial_vector_length": 16,
+      "current_version": "001",
+      "keys": [
+        {
+          "key": "Ty66chaeN1BVwSnvGzb6lg==",
+          "cipher_name": "AES",
+          "version": "001",
+          "fixed_salt": "1gru7ulzhqfct3ua"
+        },
+        {
+          "key": "Ty66chaeN1BVwSnvGzb6lg==",
+          "cipher_name": "AES",
+          "version": "002",
+          "fixed_salt": "1gru7ulzhqfct3ua"
+        }
+      ]
+    },
+    {
+      "key_alias": "common.key_family_3.shard1",
+      "fixed_salt": "1gru7ulzhqfct3ua",
+      "initial_vector_length": 16,
+      "current_version": "001",
+      "keys": [
+        {
+          "key": "Ty66chaeN1BVwSnvGzb6lg==",
+          "cipher_name": "AES",
+          "version": "001",
+          "fixed_salt": "1gru7ulzhqfct3ua"
+        },
+        {
+          "key": "VW5qbjVqU2RhaHlXVDluV2ZGenN6MHdJbDZBWGRCY2U=",
+          "cipher_name": "AES/CBC/PKCS5Padding",
+          "version": "002",
+          "fixed_salt": "1gru7ulzhqfct3ua"
+        }
+      ]
+    },
+    {
+      "key_alias": "common.key_family_1.shard2",
+      "fixed_salt": "1gru7ulzhqfct3ua",
+      "initial_vector_length": 16,
+      "current_version": "001",
+      "keys": [
+        {
+          "key": "Ty66chaeN1BVwSnvGzb6lg==",
+          "cipher_name": "AES",
+          "version": "001",
+          "fixed_salt": "1gru7ulzhqfct3ua"
+        },
+        {
+          "key": "Ty66chaeN1BVwSnvGzb6lg==",
+          "cipher_name": "AES",
+          "version": "002",
+          "fixed_salt": "1gru7ulzhqfct3ua"
+        }
+      ]
+    },
+    {
+      "key_alias": "user.key_family_1.shard1",
+      "fixed_salt": "1gru7ulzhqfct3ua",
+      "initial_vector_length": 16,
+      "current_version": "001",
+      "keys": [
+        {
+          "key": "Ty66chaeN1BVwSnvGzb6lg==",
+          "cipher_name": "AES",
+          "version": "001",
+          "fixed_salt": "1gru7ulzhqfct3ua"
+        },
+        {
+          "key": "Ty66chaeN1BVwSnvGzb6lg==",
+          "cipher_name": "AES",
+          "version": "002",
+          "fixed_salt": "1gru7ulzhqfct3ua"
+        }
+      ]
+    }
+  ]
+}

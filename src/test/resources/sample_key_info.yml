@@ -1,0 +1,83 @@
+keys: 
+ - 
+  db_name: common
+  key_info: 
+   - 
+   shard_num: 1
+    key_families: 
+     - 
+   name: key_family_1
+      fixed_salt: 1gru7ulzhqfct3ua
+      initial_vector_length: 16
+      current_version: 001
+      keys: 
+       - 
+   key_file_loc: some_location
+        cipher_name: AES
+        version: 001
+        fixed_salt: 1gru7ulzhqfct3ua
+       - 
+   key_file_loc: some_location
+        cipher_name: AES
+        version: 002
+        fixed_salt: 1gru7ulzhqfct3ua
+   - 
+   shard_num: 2
+    key_families: 
+     - 
+   name: key_family_1
+      fixed_salt: 1gru7ulzhqfct3ua
+      initial_vector_length: 16
+      current_version: 001
+      keys: 
+       - 
+   key_file_loc: some_location
+        cipher_name: AES
+        version: 001
+        fixed_salt: 1gru7ulzhqfct3ua
+       - 
+   key_file_loc: some_location
+        cipher_name: AES
+        version: 002
+        fixed_salt: 1gru7ulzhqfct3ua
+ - 
+  db_name: user
+  key_info: 
+   - 
+   shard_num: 1
+    key_families: 
+     - 
+   name: key_family_1
+      fixed_salt: 1gru7ulzhqfct3ua
+      initial_vector_length: 16
+      current_version: 001
+      keys: 
+       - 
+   key_file_loc: some_location
+        cipher_name: AES
+        version: 001
+        fixed_salt: 1gru7ulzhqfct3ua
+       - 
+   key_file_loc: some_location
+        cipher_name: AES
+        version: 002
+        fixed_salt: 1gru7ulzhqfct3ua
+   - 
+   shard_num: 2
+    key_families: 
+     - 
+   name: key_family_1
+      fixed_salt: 1gru7ulzhqfct3ua
+      initial_vector_length: 16
+      current_version: 001
+      keys: 
+       - 
+   key_file_loc: some_location
+        cipher_name: AES
+        version: 001
+        fixed_salt: 1gru7ulzhqfct3ua
+       - 
+   key_file_loc: some_location
+        cipher_name: AES
+        version: 002
+        fixed_salt: 1gru7ulzhqfct3ua
